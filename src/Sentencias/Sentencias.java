@@ -25,7 +25,7 @@ public class Sentencias {
                     if (contador < productos.length) {
                         System.out.print("Nombre del producto: ");
                         productos[contador] = sc.next();
-                        System.out.print("Cantidad en stock: ");
+                        System.out.print("Ingresar stock: ");
                         stock[contador] = sc.nextInt();
                         contador++;
                         System.out.println("Producto agregado.");
